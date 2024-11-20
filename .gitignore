@@ -15,6 +15,18 @@
 *.swo
 *.lock
 
+# Text files
+*.doc
+*.docx
+*.log
+*.msg
+*.pages
+*.rtf
+*.txt
+*.wpd
+*.wps
+
+
 # Ignore configuration files with sensitive information
 .env
 .env.local
