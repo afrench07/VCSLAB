@@ -7,6 +7,20 @@
 *.o
 *.obj
 
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.lock
+
+# Ignore configuration files with sensitive information
+.env
+.env.local
+.env.*
+!.env.example
+
 # Precompiled Headers
 *.gch
 *.pch
